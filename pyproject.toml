@@ -11,9 +11,10 @@ python = "^3.11"
 fastapi = "^0.103.1"
 uvicorn = "^0.23.2"
 pydantic = "^2.3.0"
+black = "^23.9.1"
 
 [tool.black]
-line-length = 152
+line-length = 120
 target-version = ['py311']
 
 [build-system]
