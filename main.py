@@ -7,5 +7,5 @@ app = FastAPI()
 @app.get("/")
 async def root():
     response = JSONResponse({"message": "Hello World"})
-    response.set_cookie(key="abc", value="abc")
+    response.set_cookie(key="abc", value="abc", httponly=True)
     return response
