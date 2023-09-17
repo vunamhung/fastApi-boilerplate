@@ -328,6 +328,20 @@ files = [
 typing-extensions = ">=4.6.0,<4.7.0 || >4.7.0"
 
 [[package]]
+name = "ramda"
+version = "0.7.6"
+description = "Python clone of ramda.js (ramdajs.com)"
+optional = false
+python-versions = "*"
+files = [
+    {file = "ramda-0.7.6-py3-none-any.whl", hash = "sha256:3c02e76c05818f87616e21493fd82e429eb5c57ab8d83d966a4cc5bd2cdf94be"},
+    {file = "ramda-0.7.6.tar.gz", hash = "sha256:2f935addee8941e44bb12955525a90f05a28dca85ad032957a96f6bc999e6843"},
+]
+
+[package.dependencies]
+toolz = "*"
+
+[[package]]
 name = "sniffio"
 version = "1.3.0"
 description = "Sniff out which async library your code is running under"
@@ -354,6 +368,17 @@ anyio = ">=3.4.0,<5"
 
 [package.extras]
 full = ["httpx (>=0.22.0)", "itsdangerous", "jinja2", "python-multipart", "pyyaml"]
+
+[[package]]
+name = "toolz"
+version = "0.12.0"
+description = "List processing tools and functional utilities"
+optional = false
+python-versions = ">=3.5"
+files = [
+    {file = "toolz-0.12.0-py3-none-any.whl", hash = "sha256:2059bd4148deb1884bb0eb770a3cde70e7f954cfbbdc2285f1f2de01fd21eb6f"},
+    {file = "toolz-0.12.0.tar.gz", hash = "sha256:88c570861c440ee3f2f6037c4654613228ff40c93a6c25e0eba70d17282c6194"},
+]
 
 [[package]]
 name = "typing-extensions"
@@ -387,4 +412,4 @@ standard = ["colorama (>=0.4)", "httptools (>=0.5.0)", "python-dotenv (>=0.13)",
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "b4229defc8e86e96af8d2234feb38a3d7e9916e554544e22d2658f1bb036f8f0"
+content-hash = "02353c1c9961a3070e6b65199727542a05b1a29ea1aa3089fa11195de82b27cd"
